@@ -6,6 +6,7 @@ BASE_DIR="/Users/e.watson/personal-projects/mandelbrot-set-shader"
   -I$BASE_DIR/include \
   -I$BASE_DIR/include/glm \
   -I$BASE_DIR/include/imgui \
+  -I/usr/local/include/SDL2 \
   $BASE_DIR/include/imgui/*.cpp \
   $BASE_DIR/include/imgui/backends/imgui_impl_opengl3.cpp \
   $BASE_DIR/include/imgui/backends/imgui_impl_sdl2.cpp \
